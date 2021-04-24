@@ -184,13 +184,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="16S-BU-7XZ">
-                                <rect key="frame" x="36" y="132" width="248" height="33.5"/>
+                                <rect key="frame" x="36" y="137" width="248" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Rsj-PA-dUM">
-                                <rect key="frame" x="108" y="70" width="104" height="20"/>
+                                <rect key="frame" x="108" y="97" width="104" height="20"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRF-nF-97S">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -218,12 +218,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Rsj-PA-dUM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="2SR-wm-kld"/>
+                            <constraint firstItem="Rsj-PA-dUM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="2SR-wm-kld"/>
                             <constraint firstItem="16S-BU-7XZ" firstAttribute="width" secondItem="c3b-xj-RBb" secondAttribute="width" id="8Fl-Wa-Iue"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c3b-xj-RBb" secondAttribute="bottom" constant="20" id="Mbi-eM-KdR"/>
-                            <constraint firstItem="c3b-xj-RBb" firstAttribute="top" secondItem="16S-BU-7XZ" secondAttribute="bottom" constant="30" id="SnW-Wq-JHw"/>
+                            <constraint firstItem="c3b-xj-RBb" firstAttribute="top" secondItem="16S-BU-7XZ" secondAttribute="bottom" constant="25" id="SnW-Wq-JHw"/>
                             <constraint firstItem="xud-0q-AsW" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.140845" id="Yd9-aM-iRV"/>
                             <constraint firstItem="c3b-xj-RBb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d4r-KB-XVi"/>
+                            <constraint firstItem="16S-BU-7XZ" firstAttribute="top" secondItem="Rsj-PA-dUM" secondAttribute="bottom" constant="20" id="mrE-Ue-dhZ"/>
                             <constraint firstItem="Rsj-PA-dUM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nmV-1w-zcV"/>
                             <constraint firstItem="16S-BU-7XZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xb5-S3-VHq"/>
                         </constraints>
