@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA14948263418F900C86D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA14947263418F900C86D7A /* AppDelegate.swift */; };
+		EAA1494A263418F900C86D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA14949263418F900C86D7A /* SceneDelegate.swift */; };
+		EAA1494C263418F900C86D7A /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1494B263418F900C86D7A /* PinViewController.swift */; };
+		EAA1494F263418F900C86D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA1494D263418F900C86D7A /* Main.storyboard */; };
+		EAA14951263418F900C86D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA14950263418F900C86D7A /* Assets.xcassets */; };
+		EAA14954263418F900C86D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA14952263418F900C86D7A /* LaunchScreen.storyboard */; };
+		EAA1496126341E4400C86D7A /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1496026341E4400C86D7A /* AppSettings.swift */; };
+		EAA149642634209600C86D7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA149632634209600C86D7A /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAA14944263418F900C86D7A /* Pin code (Vezdekod).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pin code (Vezdekod).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA14947263418F900C86D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA14949263418F900C86D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAA1494B263418F900C86D7A /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		EAA1494E263418F900C86D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA14950263418F900C86D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA14953263418F900C86D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA14955263418F900C86D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA1496026341E4400C86D7A /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		EAA149632634209600C86D7A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA14941263418F900C86D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA1493B263418F900C86D7A = {
+			isa = PBXGroup;
+			children = (
+				EAA14946263418F900C86D7A /* Pin code (Vezdekod) */,
+				EAA14945263418F900C86D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA14945263418F900C86D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA14944263418F900C86D7A /* Pin code (Vezdekod).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA14946263418F900C86D7A /* Pin code (Vezdekod) */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1497026345AFC00C86D7A /* Application */,
+				EAA1497626345B3200C86D7A /* Views */,
+				EAA1496F26345AE500C86D7A /* Controllers */,
+				EAA1497226345B0600C86D7A /* Helpers */,
+				EAA1497426345B1A00C86D7A /* Resources */,
+				EAA1497526345B2300C86D7A /* Configuration */,
+			);
+			path = "Pin code (Vezdekod)";
+			sourceTree = "<group>";
+		};
+		EAA1496F26345AE500C86D7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1494B263418F900C86D7A /* PinViewController.swift */,
+				EAA149632634209600C86D7A /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAA1497026345AFC00C86D7A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EAA14947263418F900C86D7A /* AppDelegate.swift */,
+				EAA14949263418F900C86D7A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EAA1497226345B0600C86D7A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1496026341E4400C86D7A /* AppSettings.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAA1497426345B1A00C86D7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAA14950263418F900C86D7A /* Assets.xcassets */,
+				EAA14952263418F900C86D7A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EAA1497526345B2300C86D7A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EAA14955263418F900C86D7A /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EAA1497626345B3200C86D7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1494D263418F900C86D7A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA14943263418F900C86D7A /* Pin code (Vezdekod) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA14958263418F900C86D7A /* Build configuration list for PBXNativeTarget "Pin code (Vezdekod)" */;
+			buildPhases = (
+				EAA14940263418F900C86D7A /* Sources */,
+				EAA14941263418F900C86D7A /* Frameworks */,
+				EAA14942263418F900C86D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pin code (Vezdekod)";
+			productName = "Pin code (Vezdekod)";
+			productReference = EAA14944263418F900C86D7A /* Pin code (Vezdekod).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA1493C263418F900C86D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EAA14943263418F900C86D7A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EAA1493F263418F900C86D7A /* Build configuration list for PBXProject "Pin code (Vezdekod)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA1493B263418F900C86D7A;
+			productRefGroup = EAA14945263418F900C86D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA14943263418F900C86D7A /* Pin code (Vezdekod) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA14942263418F900C86D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA14954263418F900C86D7A /* LaunchScreen.storyboard in Resources */,
+				EAA14951263418F900C86D7A /* Assets.xcassets in Resources */,
+				EAA1494F263418F900C86D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA14940263418F900C86D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1494C263418F900C86D7A /* PinViewController.swift in Sources */,
+				EAA14948263418F900C86D7A /* AppDelegate.swift in Sources */,
+				EAA1496126341E4400C86D7A /* AppSettings.swift in Sources */,
+				EAA1494A263418F900C86D7A /* SceneDelegate.swift in Sources */,
+				EAA149642634209600C86D7A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAA1494D263418F900C86D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA1494E263418F900C86D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA14952263418F900C86D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA14953263418F900C86D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA14956263418F900C86D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA14957263418F900C86D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA14959263418F900C86D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG5F626PKK;
+				INFOPLIST_FILE = "$(SRCROOT)/Pin code (Vezdekod)/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexislog.Pin-code--Vezdekod-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA1495A263418F900C86D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG5F626PKK;
+				INFOPLIST_FILE = "$(SRCROOT)/Pin code (Vezdekod)/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexislog.Pin-code--Vezdekod-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA1493F263418F900C86D7A /* Build configuration list for PBXProject "Pin code (Vezdekod)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA14956263418F900C86D7A /* Debug */,
+				EAA14957263418F900C86D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA14958263418F900C86D7A /* Build configuration list for PBXNativeTarget "Pin code (Vezdekod)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA14959263418F900C86D7A /* Debug */,
+				EAA1495A263418F900C86D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA1493C263418F900C86D7A /* Project object */;
+}
